@@ -2,10 +2,7 @@ insert into tb_pessoas values(1, 'Danilo', 'M');
 
 insert into tb_pessoas (nome, sexo) values('Sheila', 'F');
 
-SELECT 
-    *
-FROM
-    tb_pessoas;
+select * from tb_pessoas;
 
 insert into tb_pessoas (nome, sexo) values
 ('Wendel', 'M'),
@@ -15,19 +12,9 @@ insert into tb_pessoas (nome, sexo) values
 ('Edilaine', 'F'),
 ('Denis', 'M');
 
-SELECT 
-    *
-FROM
-    tb_funcionarios;
-    
-    
-SELECT 
-    *
-FROM
-    tb_pessoas;
+select * from tb_funcionarios;
+select * from tb_pessoas;
 
 -- insert into tb_funcionarios
-SELECT 
-    id, nome, 1000.00, CURRENT_DATE(), sexo, NULL
-FROM
-    tb_pessoas;
+select id, nome, 1000.00, current_date(), sexo, null from tb_pessoas;
+-- transferencia de dados
